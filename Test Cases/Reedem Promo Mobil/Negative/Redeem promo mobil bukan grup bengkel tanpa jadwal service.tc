@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Redeem promo mobil bukan grup bengkel tanpa jadwal service</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e621ad91-ead3-4650-920d-00384a257dfb</testCaseGuid>
+</TestCaseEntity>

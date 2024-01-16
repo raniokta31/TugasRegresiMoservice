@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_detailBukanGrupBengkel</name>
+   <name>button_pilihBengkel</name>
    <tag></tag>
-   <elementGuidId>49f1d080-237e-4269-85ea-38ddc877c79f</elementGuidId>
+   <elementGuidId>988662d9-ad13-401b-a010-1be707039b2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='css-o7692']/child::p[text()='Promo Paket Mesin']/parent::div/child::div/child::div[text()='Jakarta Pusat']/parent::div/parent::div/child::button[text()='Lihat Detail']</value>
+         <value>//div[@class='css-1x135lc']/child::p[text()='Pilih bengkel untuk redeem voucher']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

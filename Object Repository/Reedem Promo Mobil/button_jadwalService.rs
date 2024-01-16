@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_detailBukanGrupBengkel</name>
+   <name>button_jadwalService</name>
    <tag></tag>
-   <elementGuidId>49f1d080-237e-4269-85ea-38ddc877c79f</elementGuidId>
+   <elementGuidId>b02337df-bfaa-4caa-8b5b-99f013100c4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='css-o7692']/child::p[text()='Promo Paket Mesin']/parent::div/child::div/child::div[text()='Jakarta Pusat']/parent::div/parent::div/child::button[text()='Lihat Detail']</value>
+         <value>//button[@class='css-lm39o0']</value>
       </entry>
       <entry>
          <key>BASIC</key>

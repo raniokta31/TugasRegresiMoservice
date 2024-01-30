@@ -4,9 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description>link url moservice dev</description>
-      <initValue>'https://dev.moservice.id/'</initValue>
-      <name>url</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

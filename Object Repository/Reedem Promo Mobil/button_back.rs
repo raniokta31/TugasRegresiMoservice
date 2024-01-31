@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_select</name>
+   <name>button_back</name>
    <tag></tag>
-   <elementGuidId>49725310-1c91-4486-9459-a5ede143670c</elementGuidId>
+   <elementGuidId>7faec649-3ac4-4e80-b614-3c77971d343f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=' css-1hwfws3']/div[text()='BMW - B2002AY']</value>
+         <value>//*[@id=&quot;__next&quot;]/div/div[3]/main/div[2]/div[4]/div[1]/button/img</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

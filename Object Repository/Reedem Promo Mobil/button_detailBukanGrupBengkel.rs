@@ -6,11 +6,11 @@
    <elementGuidId>49f1d080-237e-4269-85ea-38ddc877c79f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='css-o7692']/child::p[text()='Promo Paket Mesin']/parent::div/child::div/child::div[text()='Jakarta Pusat']/parent::div/parent::div/child::button[text()='Lihat Detail']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class='css-o7692']/child::p[text()='promo automation 1 bengkel mobil']/parent::div/child::div/child::div[text()='Bandung']/parent::div/parent::div/child::button[text()='Lihat Detail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

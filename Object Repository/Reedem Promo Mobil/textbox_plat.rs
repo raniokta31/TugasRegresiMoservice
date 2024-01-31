@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_select</name>
+   <name>textbox_plat</name>
    <tag></tag>
-   <elementGuidId>49725310-1c91-4486-9459-a5ede143670c</elementGuidId>
+   <elementGuidId>bd7f8816-c206-4235-afe8-4754ae3a9eb1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=' css-1hwfws3']/div[text()='BMW - B2002AY']</value>
+         <value>//input[@placeholder='Masukkan Nomor']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

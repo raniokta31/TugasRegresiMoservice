@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_select</name>
+   <name>dropdown_model</name>
    <tag></tag>
-   <elementGuidId>49725310-1c91-4486-9459-a5ede143670c</elementGuidId>
+   <elementGuidId>adb29ca4-8760-4186-968b-47178bbe91aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=' css-1hwfws3']/div[text()='BMW - B2002AY']</value>
+         <value>//div[@class=' css-1hwfws3']/child::div[text()='WR-V']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

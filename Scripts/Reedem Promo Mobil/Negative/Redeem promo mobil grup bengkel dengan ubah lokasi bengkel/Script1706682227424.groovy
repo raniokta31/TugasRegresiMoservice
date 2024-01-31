@@ -43,19 +43,9 @@ WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihanBeng
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_pilihanBengkel'))
 
-WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_select'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_ubahLokasiBengkel'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_select'))
+WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/label_lokasi'), 0)
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_selected'))
-
-WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
-
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
-
-WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
-
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
-
-WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/image_qrCode'), 0)
+WebUI.click(findTestObject('Reedem Promo Mobil/button_lokasiBengkel'))
 

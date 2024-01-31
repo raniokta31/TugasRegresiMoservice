@@ -6,12 +6,11 @@
    <elementGuidId>bc9f28b0-4bf0-418f-9544-05923f5a6597</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mdl-list-bengkel-1']/child::p[text()='Jaya raya']/parent::div/child::div/child::div/child::p[text()='Jl. senang raya']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='mdl-list-bengkel-1']/child::p[text()='Nusantara Sejahtera']/parent::div/child::div/child::div/child::p[text()='Jl. A.H. Nasution No. 58, KM. 7, Sukamiskin, Kec. Arcamanik, Bandung, Jawa Barat, Bandung, 40293']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

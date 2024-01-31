@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_select</name>
+   <name>label_promo</name>
    <tag></tag>
-   <elementGuidId>49725310-1c91-4486-9459-a5ede143670c</elementGuidId>
+   <elementGuidId>ac685611-89b9-4466-adbb-9d5e5f90de6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=' css-1hwfws3']/div[text()='BMW - B2002AY']</value>
+         <value>//div/child::p[text()='Info Promo']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,11 +6,11 @@
    <elementGuidId>ca0b9f91-90a7-4890-805e-cb34252c5798</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='css-o7692']/child::p[text()='Diskon 10% + Cashback 5% adirapoin Pembelian Velg HSR Adira Finance Syariah']/parent::div/child::div//parent::div/parent::div/child::button[text()='Lihat Detail']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class='css-o7692']/child::p[text()='promo automation Lebih 1 bengkel mobil']/parent::div/child::div/child::div[text()='Bekasi']/parent::div/parent::div/child::button[text()='Lihat Detail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

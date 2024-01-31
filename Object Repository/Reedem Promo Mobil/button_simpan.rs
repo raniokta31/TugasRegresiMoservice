@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_select</name>
+   <name>button_simpan</name>
    <tag></tag>
-   <elementGuidId>49725310-1c91-4486-9459-a5ede143670c</elementGuidId>
+   <elementGuidId>c4c95b45-5c97-4acb-9a8b-4b83e276a9ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=' css-1hwfws3']/div[text()='BMW - B2002AY']</value>
+         <value>//button[text()='simpan']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

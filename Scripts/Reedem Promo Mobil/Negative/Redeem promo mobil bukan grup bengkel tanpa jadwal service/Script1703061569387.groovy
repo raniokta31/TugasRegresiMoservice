@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Positive/Verifikasi login username password valid'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementVisible(findTestObject('Login/logo_moservice'))
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))

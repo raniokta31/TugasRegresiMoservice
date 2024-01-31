@@ -43,19 +43,35 @@ WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihanBeng
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_pilihanBengkel'))
 
-WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_select'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_tambahLokasi'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_select'))
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_merek'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_selected'))
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_tahunSelected'))
 
-WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_merek'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_merekSelected'))
 
-WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_model'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_model'))
 
-WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/image_qrCode'), 0)
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_modelSelected'))
+
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_tahun'))
+
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_tahun'))
+
+WebUI.setText(findTestObject('Reedem Promo Mobil/textbox_plat'), 'F2021AB')
+
+WebUI.setText(findTestObject('Reedem Promo Mobil/textbox_kilometer'), '19042021')
+
+WebUI.click(findTestObject('Reedem Promo Mobil/textbox_calender'))
+
+WebUI.click(findTestObject('Reedem Promo Mobil/textbox_calenderSelected'))
+
+WebUI.click(findTestObject('Reedem Promo Mobil/button_simpan'))
+
+WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/label_promo'), 0)
 

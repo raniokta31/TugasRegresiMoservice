@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/Reedem Promo Mobil/Negative/Redeem promo mobil bukan grup bengkel tanpa jadwal service</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7d3d470a-20f3-4ee0-8f9e-b38a5882614b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logout/Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -55,7 +55,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Reedem Promo Mobil/Positive/Redeem promo mobil bukan grup bengkel dengan jadwal service</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Reedem Promo Mobil/Positive/Redeem promo mobil bukan grup bengkel dengan jadwal service/Redeem promo mobil bukan grup bengkel dengan jadwal service</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -65,7 +65,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Reedem Promo Mobil/Positive/Reedem promo mobil grup bengkel dengan jadwal service</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Reedem Promo Mobil/Positive/Redem promo mobil grup bengkel dengan jadwal service/Redeem promo mobil grup bengkel dengan jadwal service</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

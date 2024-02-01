@@ -7,16 +7,16 @@
    <GlobalVariableEntity>
       <description>link url dev moservice</description>
       <initValue>'https://dev.moservice.id/'</initValue>
-      <name>url</name>
+      <name>urlayu</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>login menggunakan no telepon</description>
       <initValue>'082216650194'</initValue>
-      <name>telepon</name>
+      <name>teleponayu</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Adira123'</initValue>
-      <name>password</name>
+      <name>passwordayu</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

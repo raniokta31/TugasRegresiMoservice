@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Screenshoot halaman homepage'
+WebUI.takeScreenshot()
+
 WebUI.verifyElementVisible(findTestObject('Login/logo_moservice'))
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
+
+'Screenshoot halaman promo'
+WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
@@ -34,6 +40,9 @@ WebUI.click(findTestObject('Reedem Promo Mobil/menu_semua'))
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_detailGrupBengkel'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_detailGrupBengkel'))
+
+'Screenshoot halaman detail promo'
+WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihBengkel'))
 
@@ -49,13 +58,22 @@ WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_select'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_selected'))
 
+'Screenshot halaman detail promo setelah terisi'
+WebUI.takeScreenshot()
+
 WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+
+'Screenshot halaman popup ambil promo dan jadwal service'
+WebUI.takeScreenshot()
 
 WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
 
 WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/image_qrCode'), 0)
+
+'Screenshoot berhasil mendapatkan qrcode'
+WebUI.takeScreenshot()
 

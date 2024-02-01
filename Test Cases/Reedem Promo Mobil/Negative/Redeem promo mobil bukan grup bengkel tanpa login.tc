@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Redeem promo mobil grup bengkel dengan ubah lokasi bengkel</name>
+   <name>Redeem promo mobil bukan grup bengkel tanpa login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>271112e1-7a43-4f43-9119-0f5d7a6d6cd1</testCaseGuid>
+   <testCaseGuid>9c55c590-31d7-4d18-b06a-43ca80ed3a9f</testCaseGuid>
 </TestCaseEntity>

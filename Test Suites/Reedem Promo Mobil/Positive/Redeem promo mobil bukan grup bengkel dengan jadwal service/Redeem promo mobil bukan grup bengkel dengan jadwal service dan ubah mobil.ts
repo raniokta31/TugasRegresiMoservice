@@ -40,10 +40,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>324a0fee-32bb-478a-a574-653b43b73f9f</guid>
+      <guid>6078ccd5-70c9-452c-9225-02c33ace85f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reedem Promo Mobil/Positive/Booking halaman kendaraan verhasil</testCaseId>
+      <testCaseId>Test Cases/Reedem Promo Mobil/Positive/Booking halaman konfirmasi berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -17,7 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.urlayu)
+
+WebUI.maximizeWindow()
+
 WebUI.verifyElementVisible(findTestObject('Login/logo_moservice'))
+
+'Screenshoot halaman homepage'
+WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
@@ -31,21 +40,36 @@ WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/menu_semua'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/menu_semua'))
 
+'Screenshoot halaman promo'
+WebUI.takeScreenshot()
+
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_detailGrupBengkel'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_detailGrupBengkel'))
+
+'Screenshoot halaman detail promo'
+WebUI.takeScreenshot()
 
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihBengkel'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_pilihBengkel'))
 
+'Screenshoot halaman popup pilihan alaman bengkel'
+WebUI.takeScreenshot()
+
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihanBengkel'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_pilihanBengkel'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ubahLokasiBengkel'))
+'Screenshoot validasi bahwa tidak ada pilihan kendaraan jika belum login'
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/label_lokasi'), 0)
+WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_lokasiBengkel'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+
+WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/popup_belumLogin'), 0)
+
+'Screenshoot halaman popup info belum login (daftar & login)'
+WebUI.takeScreenshot()
 

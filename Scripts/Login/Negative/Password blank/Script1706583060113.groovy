@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 'masuk ke dalam website dev.moservice.id'
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.urlayu)
 
 'verifikasi bahwa page sudah terload dan ada button untuk masuk'
 WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))

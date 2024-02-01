@@ -6,12 +6,11 @@
    <elementGuidId>9e599f71-5818-402a-a063-bbcf03a84660</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='css-12ajo49']/button[text()='ambil promo']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;btn-redeem-promo&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

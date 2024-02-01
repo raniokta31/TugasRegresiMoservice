@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_lokasi</name>
+   <name>popup_belumLogin</name>
    <tag></tag>
-   <elementGuidId>08571a91-6016-4e02-8e49-24bf939e9271</elementGuidId>
+   <elementGuidId>e2309bdf-9c66-4503-9298-0a36eacf5ca6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@class='css-1486l52']/child::p/following-sibling::a/child::p[text()='Jl. A.H. Nasution No. 58, KM. 7, Sukamiskin, Kec. Arcamanik, Bandung, Jawa Barat, Bandung, 40293']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;lbl-msg-modal-redeem-promo&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

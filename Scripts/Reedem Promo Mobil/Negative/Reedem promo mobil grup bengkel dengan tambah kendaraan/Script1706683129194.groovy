@@ -43,33 +43,33 @@ WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_pilihanBeng
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_pilihanBengkel'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_tambahLokasi'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_merek'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_tahunSelected'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_merek'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_merekSelected'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_model'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_model'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_modelSelected'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_tahun'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_tahun'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Reedem Promo Mobil/textbox_plat'), 'F2021AB')
+WebUI.setText(findTestObject('null'), 'F2021AB')
 
-WebUI.setText(findTestObject('Reedem Promo Mobil/textbox_kilometer'), '19042021')
+WebUI.setText(findTestObject('null'), '19042021')
 
-WebUI.click(findTestObject('Reedem Promo Mobil/textbox_calender'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/textbox_calenderSelected'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_simpan'))
 

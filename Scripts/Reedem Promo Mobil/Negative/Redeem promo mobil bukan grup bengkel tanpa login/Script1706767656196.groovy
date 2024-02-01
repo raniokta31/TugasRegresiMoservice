@@ -23,25 +23,47 @@ WebUI.navigateToUrl(GlobalVariable.urlayu)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+WebUI.delay(0)
 
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+'Screenshoot halaman homepage'
+WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+WebUI.verifyElementVisible(findTestObject('Login/logo_moservice'))
 
-WebUI.setText(findTestObject('Login/textbox_telepon'), '081219751791')
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
-WebUI.click(findTestObject('Login/textbox_password'))
+WebUI.delay(0)
 
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordayuJakarta)
+'Screenshoot halaman promo'
+WebUI.takeScreenshot()
 
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
-WebUI.click(findTestObject('Login/button_login'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/menu_semua'))
 
-WebUI.verifyElementVisible(findTestObject('Login/label_error'))
+WebUI.click(findTestObject('Reedem Promo Mobil/menu_semua'))
+
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_detailBukanGrupBengkel'))
+
+WebUI.click(findTestObject('Reedem Promo Mobil/button_detailBukanGrupBengkel'))
+
+WebUI.delay(0)
+
+'Screenshoot halaman detail promo\r\nValidasi tidak ada pilihan kendaraan jika belum login'
+WebUI.takeScreenshot()
+
+WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+
+WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
+
+WebUI.delay(7)
+
+'Screenshoot halaman popup belum login (daftar & login)'
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/popup_belumLogin'), 0)
 

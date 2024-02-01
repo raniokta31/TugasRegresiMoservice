@@ -48,7 +48,7 @@ WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/dropdown_select'))
 
 WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_select'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_selected'))
+WebUI.click(findTestObject('Reedem Promo Mobil/dropdown_mobilNotSelected'))
 
 'Screenshoot halaman detail promo setelah terisi'
 WebUI.takeScreenshot()
@@ -57,15 +57,10 @@ WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilProm
 
 WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromo'))
 
-'Screenshoot halaman popup ambil promo dan jadwal service'
+'Screenshoot halaman popup tutup'
 WebUI.takeScreenshot()
 
-WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
+WebUI.verifyElementClickable(findTestObject('Reedem Promo Mobil/button_tutup'))
 
-WebUI.click(findTestObject('Reedem Promo Mobil/button_ambilPromoPopup'))
-
-WebUI.verifyElementPresent(findTestObject('Reedem Promo Mobil/image_qrCode'), 0)
-
-'Screenshoot halaman berhasil redeem promo'
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Reedem Promo Mobil/button_tutup'))
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.urlayu)
 
 WebUI.maximizeWindow()
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo
 
 WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
 
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
+WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordayuFaldo)
 
 WebUI.click(findTestObject('Login/button_eye'))
 

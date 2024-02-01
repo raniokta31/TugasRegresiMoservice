@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 'masuk ke url https://dev.moservice.id'
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.urlayu)
 
 'maximize window'
 WebUI.maximizeWindow()
@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo
 WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
 
 'masukkan password sesuai dengan nomor telepon'
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
+WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordayuFaldo)
 
 'click button eye agar bisa melihat password'
 WebUI.click(findTestObject('Login/button_eye'))

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TextBox_Password</name>
+   <name>Tab_login</name>
    <tag></tag>
-   <elementGuidId>fbfa30d3-f845-42a1-a45d-d0dc9b1e4d37</elementGuidId>
+   <elementGuidId>e41a66cf-7831-4df8-a6b6-e1631f4c2e28</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;fieldKataSandi&quot;]/div/input</value>
+         <value>//*[@id=&quot;label_daftar_masuk&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

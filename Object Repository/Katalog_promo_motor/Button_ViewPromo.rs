@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TextBox_Password</name>
+   <name>Button_ViewPromo</name>
    <tag></tag>
-   <elementGuidId>fbfa30d3-f845-42a1-a45d-d0dc9b1e4d37</elementGuidId>
+   <elementGuidId>bf7cd990-4271-433e-bfd8-83ce93450436</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;fieldKataSandi&quot;]/div/input</value>
+         <value>//*[@id=&quot;btn-see-detail-promo-6&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

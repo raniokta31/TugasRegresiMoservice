@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TextBox_Password</name>
+   <name>Button_AmbilPromo3</name>
    <tag></tag>
-   <elementGuidId>fbfa30d3-f845-42a1-a45d-d0dc9b1e4d37</elementGuidId>
+   <elementGuidId>ef5c6488-3d33-40c7-a2cf-a1248ccaa4d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;fieldKataSandi&quot;]/div/input</value>
+         <value>/html/body/div[1]/div/div[3]/main/div[2]/div[2]/div[3]/div[3]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>

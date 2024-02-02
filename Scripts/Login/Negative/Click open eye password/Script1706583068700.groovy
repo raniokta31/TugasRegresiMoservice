@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'membuka browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.urlayu)
+'masuk ke url https://dev.moservice.id'
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
@@ -33,7 +35,7 @@ WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo
 
 WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
 
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordayuFaldo)
+WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
 
 WebUI.click(findTestObject('Login/button_eye'))
 

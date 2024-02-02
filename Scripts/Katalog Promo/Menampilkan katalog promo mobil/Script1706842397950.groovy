@@ -17,44 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'membuka browser'
 WebUI.openBrowser('')
 
-'masuk ke url https://dev.moservice.id'
 WebUI.navigateToUrl(GlobalVariable.url)
 
-'maximize window'
 WebUI.maximizeWindow()
 
-'verifikasi button masuk / daftar sudah clickable'
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'click button masuk / daftar'
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'verifikasi popup / textbox sudah muncul'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+WebUI.delay(5)
 
-'input textbot nomor telepon dengan nomor telepon yang valid'
-WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo)
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
-'verifikasi element field password sudah visible'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
+WebUI.click(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
-'input password sesuai dengan nomor telepon'
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
-
-'click button untuk open eye '
-WebUI.click(findTestObject('Login/button_eye'))
-
-WebUI.delay(3)
-
-'verifikasi button login sudah bisa diklik'
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
-
-'klik button login'
-WebUI.click(findTestObject('Login/button_login'))
-
-'verifikasi bahwa sudah berpindah halaman ke homepage moservice'
-WebUI.verifyElementPresent(findTestObject('Login/logo_moservice'), 0)
+WebUI.delay(5)
 

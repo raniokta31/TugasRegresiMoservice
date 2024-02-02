@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_promo</name>
+   <name>menu_Spesial</name>
    <tag></tag>
-   <elementGuidId>ac685611-89b9-4466-adbb-9d5e5f90de6c</elementGuidId>
+   <elementGuidId>791f17f0-9358-4f96-ac8b-65a3f1823f9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;btn-filter-spesial&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/child::p[text()='Info Promo']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

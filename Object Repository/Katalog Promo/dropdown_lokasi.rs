@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_promo</name>
+   <name>dropdown_lokasi</name>
    <tag></tag>
-   <elementGuidId>ac685611-89b9-4466-adbb-9d5e5f90de6c</elementGuidId>
+   <elementGuidId>84076d55-d39b-42f0-8f33-02298dd8543c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/child::p[text()='Info Promo']</value>
+         <value>//*[@id=&quot;select-filter-location&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

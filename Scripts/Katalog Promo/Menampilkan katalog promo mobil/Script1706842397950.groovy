@@ -17,21 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'membuka browser firefox'
 WebUI.openBrowser('')
 
+'masuk ke url https://dev.moservice.id'
 WebUI.navigateToUrl(GlobalVariable.url)
 
+'maximize window'
 WebUI.maximizeWindow()
 
+'verify bahwa button promo sudah terlihat'
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
+'click button promo'
 WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
+'tunggu 5 detik'
 WebUI.delay(5)
 
+'verifikasi bahwa tab mobil sudah ada'
 WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
+'click tab mobil'
 WebUI.click(findTestObject('Reedem Promo Mobil/button_tabMobil'))
 
+'tunggu 5 detik'
 WebUI.delay(5)
+
+'screenshot ketika sudah berada di halaman tab mobil'
+WebUI.takeScreenshot()
 

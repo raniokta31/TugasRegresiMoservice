@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 WebUI.maximizeWindow()
 
 'masuk ke dalam website dev.moservice.id'
-WebUI.navigateToUrl(GlobalVariable.urlayu)
+WebUI.navigateToUrl(GlobalVariable.url)
 
 'verifikasi bahwa page sudah terload dan ada button untuk masuk'
 WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
@@ -46,7 +46,7 @@ WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
 'click field password'
 WebUI.click(findTestObject('Login/textbox_password'))
 
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordayuJakarta)
+WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordJakarta)
 
 'verifikasi bahwa button login sudah ada'
 WebUI.verifyElementVisible(findTestObject('Login/button_login'))

@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_google</name>
+   <name>menu_Reguler</name>
    <tag></tag>
-   <elementGuidId>f30b9fb7-861b-45e6-9443-b56653bca6f5</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>7b572811-ecd2-4edc-853e-ac52fa4b1502</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;btn-filter-reguler&quot;]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;buttonGmail&quot;]/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Menampilkan katalog promo mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c8fd69b-879b-4c12-8d2b-d1ba81eaecc1</testCaseGuid>
+</TestCaseEntity>

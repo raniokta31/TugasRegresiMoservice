@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'membuka browser'
+'membuka browser firefox'
 WebUI.openBrowser('')
 
 'masuk ke url https://dev.moservice.id'
@@ -26,35 +26,23 @@ WebUI.navigateToUrl(GlobalVariable.url)
 'maximize window'
 WebUI.maximizeWindow()
 
-'verifikasi button masuk / daftar sudah clickable'
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+'verifikasi bahwa button promo sudah ada'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'click button masuk / daftar'
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+'click button promo'
+WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'verifikasi popup / textbox sudah muncul'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+'menunggu 5 detik'
+WebUI.delay(5)
 
-'input textbot nomor telepon dengan nomor telepon yang valid'
-WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo)
+'verifikasi bahwa button untuk tab motor sudah ada'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_tabMotor'))
 
-'verifikasi element field password sudah visible'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
+'click button tab motor'
+WebUI.click(findTestObject('Reedem Promo Mobil/button_tabMotor'))
 
-'input password sesuai dengan nomor telepon'
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
+'menunggu 5 detik'
+WebUI.delay(5)
 
-'click button untuk open eye '
-WebUI.click(findTestObject('Login/button_eye'))
-
-WebUI.delay(3)
-
-'verifikasi button login sudah bisa diklik'
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
-
-'klik button login'
-WebUI.click(findTestObject('Login/button_login'))
-
-'verifikasi bahwa sudah berpindah halaman ke homepage moservice'
-WebUI.verifyElementPresent(findTestObject('Login/logo_moservice'), 0)
+WebUI.comment('sekarang user akan berada di halaman promo tab motor')
 

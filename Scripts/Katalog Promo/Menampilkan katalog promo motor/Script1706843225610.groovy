@@ -44,5 +44,8 @@ WebUI.click(findTestObject('Reedem Promo Mobil/button_tabMotor'))
 'menunggu 5 detik'
 WebUI.delay(5)
 
+'screenshot ketika sudah berada di tab motor'
+WebUI.takeScreenshot()
+
 WebUI.comment('sekarang user akan berada di halaman promo tab motor')
 

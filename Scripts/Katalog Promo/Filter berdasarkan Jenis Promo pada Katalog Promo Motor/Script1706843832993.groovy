@@ -20,41 +20,57 @@ import org.openqa.selenium.Keys as Keys
 'membuka browser'
 WebUI.openBrowser('')
 
-'masuk ke url https://dev.moservice.id'
+'masuk ke ur https://dev.moservice.id'
 WebUI.navigateToUrl(GlobalVariable.url)
 
 'maximize window'
 WebUI.maximizeWindow()
 
-'verifikasi button masuk / daftar sudah clickable'
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+'verifikasi button promo sudah visible'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'click button masuk / daftar'
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+'click button promo'
+WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'verifikasi popup / textbox sudah muncul'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+'tunggu 5 detik'
+WebUI.delay(5)
 
-'input textbot nomor telepon dengan nomor telepon yang valid'
-WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo)
+'screenshot ketika di halaman promo'
+WebUI.takeScreenshot()
 
-'verifikasi element field password sudah visible'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
+'verifikasi bahwa menu gratis sudah terlihat'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/menu_Gratis'))
 
-'input password sesuai dengan nomor telepon'
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
+'click menu gratis'
+WebUI.click(findTestObject('Reedem Promo Mobil/menu_Gratis'))
 
-'click button untuk open eye '
-WebUI.click(findTestObject('Login/button_eye'))
+'tunggu 5 detik'
+WebUI.delay(5)
 
-WebUI.delay(3)
+'screenshot ketika sedang berada di menu gratis'
+WebUI.takeScreenshot()
 
-'verifikasi button login sudah bisa diklik'
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
+'verifikasi bahwa menu reguler sudah terlihat'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/menu_Reguler'))
 
-'klik button login'
-WebUI.click(findTestObject('Login/button_login'))
+'click menu reguler'
+WebUI.click(findTestObject('Reedem Promo Mobil/menu_Reguler'))
 
-'verifikasi bahwa sudah berpindah halaman ke homepage moservice'
-WebUI.verifyElementPresent(findTestObject('Login/logo_moservice'), 0)
+'tunggu 5 detik'
+WebUI.delay(5)
+
+'screenshot ketika sedang berada di menu reguler'
+WebUI.takeScreenshot()
+
+'verifikasi bahwa menu spesial sudah terlihat'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/menu_Spesial'))
+
+'click menu spesial'
+WebUI.click(findTestObject('Reedem Promo Mobil/menu_Spesial'))
+
+'tunggu 5 detik'
+WebUI.delay(5)
+
+'screenshot ketika sedang berada di menu spesial'
+WebUI.takeScreenshot()
 

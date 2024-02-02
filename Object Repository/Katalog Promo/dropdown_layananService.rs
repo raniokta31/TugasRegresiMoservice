@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_promo</name>
+   <name>dropdown_layananService</name>
    <tag></tag>
-   <elementGuidId>ac685611-89b9-4466-adbb-9d5e5f90de6c</elementGuidId>
+   <elementGuidId>c96d666b-7c79-465b-8dee-077a5903510e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/child::p[text()='Info Promo']</value>
+         <value>//*[@id=&quot;select-filter-service&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

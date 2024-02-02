@@ -20,41 +20,41 @@ import org.openqa.selenium.Keys as Keys
 'membuka browser'
 WebUI.openBrowser('')
 
-'masuk ke url https://dev.moservice.id'
+'masuk ke ur https://dev.moservice.id'
 WebUI.navigateToUrl(GlobalVariable.url)
 
 'maximize window'
 WebUI.maximizeWindow()
 
-'verifikasi button masuk / daftar sudah clickable'
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+'verifikasi button promo sudah visible'
+WebUI.verifyElementVisible(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'click button masuk / daftar'
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+'click button promo'
+WebUI.click(findTestObject('Reedem Promo Mobil/button_promo'))
 
-'verifikasi popup / textbox sudah muncul'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+'tunggu 5 detik'
+WebUI.delay(5)
 
-'input textbot nomor telepon dengan nomor telepon yang valid'
-WebUI.setText(findTestObject('Login/textbox_telepon'), GlobalVariable.noTelFaldo)
+'screenshot ketika di halaman promo'
+WebUI.takeScreenshot()
 
-'verifikasi element field password sudah visible'
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
+'verifikasi bahwa dropdown untuk filter lokasi sudah ada'
+WebUI.verifyElementVisible(findTestObject('Katalog Promo/dropdown_lokasi'))
 
-'input password sesuai dengan nomor telepon'
-WebUI.setText(findTestObject('Login/textbox_password'), GlobalVariable.passwordFaldo)
+'click untuk dropdown lokasi'
+WebUI.click(findTestObject('Katalog Promo/dropdown_lokasi'))
 
-'click button untuk open eye '
-WebUI.click(findTestObject('Login/button_eye'))
+'input \'jakarta selatan\' pada filter lokasi'
+WebUI.sendKeys(findTestObject(null), 'jakarta selatan')
 
-WebUI.delay(3)
+'input enter'
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
-'verifikasi button login sudah bisa diklik'
-WebUI.verifyElementClickable(findTestObject('Login/button_login'))
+'tunggu 5 detik'
+WebUI.delay(5)
 
-'klik button login'
-WebUI.click(findTestObject('Login/button_login'))
+'screenshot ketika sudah filter lokasi jakarta selatan'
+WebUI.takeScreenshot()
 
-'verifikasi bahwa sudah berpindah halaman ke homepage moservice'
-WebUI.verifyElementPresent(findTestObject('Login/logo_moservice'), 0)
+WebUI.comment('akan memfilter semua jenis promo yang berlokasi di jakarta selatan')
 

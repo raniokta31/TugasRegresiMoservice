@@ -39,7 +39,7 @@ WebUI.setText(findTestObject('Registrasi/textbox_nama'), 'Si manis')
 
 WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
 
-WebUI.setText(findTestObject('Login/textbox_telepon'), '0812080820201')
+WebUI.setText(findTestObject('Login/textbox_telepon'), '081295968576')
 
 WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
 
@@ -62,4 +62,8 @@ WebUI.click(findTestObject('Registrasi/button_setujuDaftar'))
 WebUI.verifyElementVisible(findTestObject('Registrasi/button_daftarRegist'))
 
 WebUI.click(findTestObject('Registrasi/button_daftarRegist'))
+
+WebUI.verifyElementVisible(findTestObject('Registrasi/button_otpWa'))
+
+WebUI.click(findTestObject('Registrasi/button_otpWa'))
 

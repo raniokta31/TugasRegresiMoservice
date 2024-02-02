@@ -17,41 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'membuka browser firefox'
 WebUI.openBrowser('')
-
-'maximize window agar full screen'
-WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://dev.moservice.id/')
 
-WebUI.verifyElementClickable(findTestObject('Login/button_masukDaftar'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Login/button_masukDaftar'))
+WebUI.verifyElementVisible(findTestObject('Katalog Bengkel/button_bengkelMotor'))
 
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
+WebUI.click(findTestObject('Katalog Bengkel/button_bengkelMotor'))
 
-WebUI.click(findTestObject('Registrasi/button_daftar'))
+WebUI.verifyElementVisible(findTestObject('Katalog Bengkel/button_cuciMotor'))
 
-WebUI.verifyElementVisible(findTestObject('Registrasi/textbox_nama'))
+WebUI.verifyElementVisible(findTestObject('Katalog Bengkel/button_lihatSemuaBengkelMotor'))
 
-WebUI.setText(findTestObject('Registrasi/textbox_nama'), 'Si manis')
+WebUI.click(findTestObject('Katalog Bengkel/button_lihatSemuaBengkelMotor'))
 
-WebUI.verifyElementVisible(findTestObject('Login/textbox_telepon'))
-
-WebUI.setText(findTestObject('Login/textbox_telepon'), '0812080820204')
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_password'))
-
-WebUI.setText(findTestObject('Login/textbox_password'), 'Simanis01')
-
-WebUI.verifyElementVisible(findTestObject('Registrasi/textbox_reinputPassword'))
-
-WebUI.setText(findTestObject('Registrasi/textbox_reinputPassword'), 'Simanis01')
-
-WebUI.verifyElementVisible(findTestObject('Registrasi/button_daftarRegist'))
-
-WebUI.click(findTestObject('Registrasi/button_daftarRegist'))
-
-WebUI.comment('Button Daftar disable')
+WebUI.delay(5)
 
